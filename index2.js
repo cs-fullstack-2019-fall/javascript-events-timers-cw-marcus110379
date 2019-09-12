@@ -1,4 +1,5 @@
 let stop = document.getElementById("box");
+// !! : buttons should have text content in your HTML file so you can see them (larger) on the screen
 let btn1 = document.getElementById("btn1");
 let btn2= document.getElementById("btn2");
 
@@ -9,15 +10,12 @@ function buttonDisable() {
 
 }
 
+// !! : you never define the variable add1
+// !! : this function is the same as buttonDisable 
 function button2Disable() {
     add1.setAttribute("disabled", "");
 
 }
-
-
-
-
-
 
 // let button1 =document.getElementById("btn1");
 // let button2 = document.getElementById("btn2");
